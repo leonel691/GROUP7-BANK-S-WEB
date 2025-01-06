@@ -1,0 +1,149 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+body{
+    /* position: relative; */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/6.jpeg);
+    background-size: cover ; 
+}
+:root{
+    --first-color:rgb(0, 153, 102);
+    --second-color:rgb(0, 153, 0);
+    --tirth-color:rgb(0, 204, 51);
+    --page-color:white;
+    --border-color:gray;
+    /* --title-font:;
+    --text-font:;
+    --text-color:; */
+}
+main{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(167, 167, 167);
+    width: 119.6rem;
+    height: 79.6rem;
+    border: solid .4rem var(--border-color);
+    /* top: 5%;
+    left: 15%; */
+}
+/* ici je fait les contours de la page */
+.cover_first{
+    position: relative;
+    display: flex;
+    background-color: var(--first-color);
+    width: 118.8rem;
+    height: 78.8rem;
+    align-self: center;
+    justify-content: center;
+}
+.cover_second{
+    position: relative;
+    display: flex;
+    background-color: var(--second-color);
+    width: 117.6rem;
+    height: 77.6rem;
+    align-self: center;
+    justify-content: center;
+}
+.cover_tirth{
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: var(--tirth-color);
+    width: 116.4rem;
+    height: 76.4rem;
+}
+.frame{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    background-color: var(--border-color);
+    width: 115.2rem;
+    height: 75.2rem;
+}
+/* a partir d'ici je remplit du contenu  */
+.header{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--page-color);
+    align-items: center;
+    justify-content: center;
+}
+.header>span{
+    font-family: 'Courier New', Courier, monospace; /* "ici c'est plutot liberation mono" */
+    font-weight: bold;
+    font-size: 2rem;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    /* background-color: var(--page-color); */
+    background-color: var(--page-color);
+    display: flex;
+}
+/* la forme de la page est deja mise */
+.menu_bar{
+    width: 17rem;
+    height: 100%;
+    background-color: var(--page-color);
+    margin-left: .6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menu_board{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: var(--page-color);
+    margin-right: .6rem;
+    flex-direction: column;
+}
+.menu{
+    background-color: var(--second-color);
+    width: 13.6rem;
+    height: 4rem;
+    border-radius: 5px;
+    color: var(--page-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
+.icons_link{
+    text-decoration: none;
+}
+.menu:active{
+   transform: translateY(10x);
+   transform: translateZ(9px);
+   
+}
+.menu_board>span{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    height: 8rem;
+}
+table{
+    border: solid black .2rem;
+}
