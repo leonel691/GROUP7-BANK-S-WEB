@@ -1,0 +1,208 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+body{
+    /* position: relative; */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/6.jpeg);
+    background-size: cover ;
+    
+}
+:root{
+    --first-color:rgb(0, 153, 102);
+    --second-color:rgb(0, 153, 0);
+    --tirth-color:rgb(0, 204, 51);
+    --page-color:white;
+    --border-color:gray;
+    /* --title-font:;
+    --text-font:;
+    --text-color:; */
+}
+main{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(167, 167, 167);
+    width: 119.6rem;
+    height: 79.6rem;
+    border: solid .4rem var(--border-color);
+    /* top: 5%;
+    left: 15%; */
+}
+/* ici je fait les contours de la page */
+.cover_first{
+    position: relative;
+    display: flex;
+    background-color: var(--first-color);
+    width: 118.8rem;
+    height: 78.8rem;
+    align-self: center;
+    justify-content: center;
+}
+.cover_second{
+    position: relative;
+    display: flex;
+    background-color: var(--second-color);
+    width: 117.6rem;
+    height: 77.6rem;
+    align-self: center;
+    justify-content: center;
+}
+.cover_tirth{
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: var(--tirth-color);
+    width: 116.4rem;
+    height: 76.4rem;
+}
+.frame{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    background-color: var(--border-color);
+    width: 115.2rem;
+    height: 75.2rem;
+}
+/* a partir d'ici je remplit du contenu  */
+.header{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--page-color);
+    align-items: center;
+    justify-content: center;
+}
+.header>span{
+    font-family: 'Courier New', Courier, monospace; /* "ici c'est plutot liberation mono" */
+    font-weight: bold;
+    font-size: 2rem;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--page-color);
+    /* background-color: var(--first-color); */
+    display: flex; 
+    align-items: end;
+}
+.footer{
+    background-color: var(--page-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    justify-content: center;
+}
+/* la forme de la page est deja mise */
+.body>.images_plante{
+    flex: 1;
+    width: 58.3rem;
+    height: 55.3rem;
+    background-color: black;
+    border: solid .4rem var(--border-color);
+    background-image: url(../images/makemoney.png);
+    background-size:cover;
+    margin:0 .4rem;
+}
+.body>.connexion{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    justify-content: space-around;
+    padding: 0 4.8rem;
+}
+.body>.connexion>.formulaire{
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.body>.connexion>.formulaire>form{
+    display: flex;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 1rem;
+ 
+}
+label{
+    color: var(--second-color);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+input{
+    display: flex;
+    border: solid .1rem black;
+    width: 100%;
+    height: 3rem;
+    font-size: 3rem;
+}
+.body>.connexion>a{
+   
+}
+.body>.connexion>a>.connexion{
+    color: var(--page-color);
+    background-color: var(--second-color);
+    width: 100%;
+    height: 5.4rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer>span{
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2.4rem;
+    
+    
+}
+
+
+
