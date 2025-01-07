@@ -147,4 +147,14 @@ main{
 }
 table{
     border: solid black .2rem;
+    text-align: center;
+    background-color: gray;
+}
+td{
+    border: solid black .2rem;
+    text-align: center;
+}
+tr{
+    border: solid black .2rem;
+    text-align: center;
 }
